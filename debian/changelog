@@ -1,5 +1,137 @@
-template-repository (1.0-1) unstable; urgency=medium
+flmsg (4.0.23-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 4.0.23
+  * Freshen years in debian/copyright
+  * Bump Standards-Version to 4.6.2 (no changes)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- tony mancill <tmancill@debian.org>  Mon, 04 Sep 2023 11:40:46 -0700
+
+flmsg (4.0.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 4.0.20 (Closes: #984131)
+  * Use debhelper-compat 13
+  * Bump Standards-Version to 4.6.1
+  * Freshen years in debian/copyright
+  * Set Rules-Requires-Root: no in debian/control
+  * Add typos patch
+
+  [ Christoph Berg]
+  * Drop alternative B-D on libfltk1.1-dev. (Closes: #974620)
+
+ -- tony mancill <tmancill@debian.org>  Fri, 19 Aug 2022 18:21:19 -0700
+
+flmsg (4.0.17-1) unstable; urgency=medium
+
+  * Team upload with new upstream version 4.0.17.
+  * Add sensible-utils and xdg-utils to recommends, flmsg uses
+    sensible-browser and xdg-open.
+
+ -- Christoph Berg <myon@debian.org>  Fri, 11 Sep 2020 13:15:32 +0200
+
+flmsg (4.0.16-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Set upstream metadata fields: Archive, Bug-Submit (from
+    ./configure).
+
+  [ Christoph Berg ]
+  * New upstream version 4.0.16.
+
+ -- Christoph Berg <myon@debian.org>  Tue, 08 Sep 2020 23:27:58 +0200
+
+flmsg (4.0.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * DH 12.
+
+ -- Christoph Berg <myon@debian.org>  Mon, 30 Dec 2019 18:29:20 +0100
+
+flmsg (4.0.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Add debian/gitlab-ci.yml.
+
+ -- Christoph Berg <myon@debian.org>  Sat, 27 Jul 2019 22:36:39 +0200
+
+flmsg (4.0.8.04-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump to DH 9 and remove autotools-dev dependency.
+  * B-D on libflxmlrpc-dev, remove libxmlrpc-core-c3-dev B-D.
+  * Priority optional.
+  * Point watch file at sf.net.
+  * Create repository on salsa.
+
+ -- Christoph Berg <myon@debian.org>  Sat, 02 Feb 2019 20:57:57 +0100
+
+flmsg (2.0.16.01-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Kamal Mostafa <kamal@whence.com>  Wed, 02 Mar 2016 16:24:17 -0800
+
+flmsg (2.0.10-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Kamal Mostafa <kamal@whence.com>  Mon, 25 May 2015 08:46:56 -0700
+
+flmsg (2.0.5-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #761843)
+  * Debian Standards-Version: 3.9.6
+  * Note: flmsg-doc/* (incl. flmsg-quick-guide.html) is no longer
+      supplied in the upstream orig tarball.
+
+ -- Kamal Mostafa <kamal@whence.com>  Sat, 25 Oct 2014 10:41:26 -0700
+
+flmsg (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Kamal Mostafa <kamal@whence.com>  Tue, 01 Apr 2014 13:38:08 -0700
+
+flmsg (2.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Updated debian/copyright
+
+ -- Kamal Mostafa <kamal@whence.com>  Wed, 26 Mar 2014 12:05:02 -0700
+
+flmsg (1.1.34-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Debian packaging update:
+    - Build-deps: s/libxmlrpc-c3-dev/libxmlrpc-core-c3-dev/ (old transition)
+    - Standards-Version: 3.9.5
+    - updated debian/copyright
+    - dh --with autotools_dev (closes: #727853)
+
+ -- Kamal Mostafa <kamal@whence.com>  Tue, 25 Mar 2014 09:15:38 -0700
+
+flmsg (1.1.21-1) unstable; urgency=low
+
+  * New upstream release, includes this change only:
+    - Tango Icon Library pixmaps updated to public domain version
+  * Debian packaging:
+    - debian/copyright: noted LGPL code src/widgets/Fl_Text_Editor*
+    - debian/copyright: noted public domain src/widgets/pixmaps_tango.cxx
+    - debian/copyright: noted public domain code in src/lzma/*
+
+ -- Kamal Mostafa <kamal@whence.com>  Sun, 01 Jul 2012 12:16:35 -0700
+
+flmsg (1.1.20-1) unstable; urgency=low
+
+  * Initial Debian release (Closes: #677945)
+
+ -- Kamal Mostafa <kamal@whence.com>  Sun, 17 Jun 2012 17:15:38 -0700

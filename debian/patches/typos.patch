@@ -1,0 +1,26 @@
+Description: correct typo in upstream sources
+Author: tony mancill <tmancill@debian.org>
+Origin: vendor
+Forwarded: no
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/utils/wrap.cxx
++++ b/src/utils/wrap.cxx
+@@ -654,7 +654,7 @@
+ 	}
+ 	std::string xfrstr = basename;
+ 	xfrstr.append(",").append(szDt);
+-	LOG_INFO("transfered %s", xfrstr.c_str());
++	LOG_INFO("transferred %s", xfrstr.c_str());
+ 
+ 	std::string xfrs = ICS_dir;
+ 	xfrs.append("auto_sent.csv");
+@@ -710,7 +710,7 @@
+ 	}
+ 	std::string xfrstr = basename;
+ 	xfrstr.append(",").append(szDt);
+-	LOG_INFO("transfered %s", xfrstr.c_str());
++	LOG_INFO("transferred %s", xfrstr.c_str());
+ 
+ 	std::string xfrs = ICS_dir;
+ 	xfrs.append("auto_sent.csv");
