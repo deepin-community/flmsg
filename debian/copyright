@@ -1,22 +1,52 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: flmsg
+Upstream-Contact: Dave Freese <w1hkj@w1hkj.com>
+Source: http://www.w1hkj.com/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
- .
+Copyright: 2008-2023 Dave Freese <w1hkj@w1hkj.com>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2014-2016 Kamal Mostafa <kamal@whence.com>
+           2019-2023 Christoph Berg <myon@debian.org
+           2022-2023 tony mancill <tmancill@debian.org
+License: GPL-3+
+
+Files: src/widgets/Fl_Text_Editor*
+Copyright: 2001-2006 by Bill Spitzak and others
+License: LGPL-3+
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3"
+
+Files: src/widgets/pixmaps_tango.cxx
+Copyright: none (public domain)
+License: public-domain
+X-Notes: These Tango Icon Library icons from tango-icon-theme-0.8.90 are
+ public domain.
+
+Files: src/lzma/*
+Copyright: none (public domain)
+License: public-domain
+X-Notes: This LZMA code is public domain, per the author Igor Pavlov.
+
+Files: src/utils/threads.cxx
+Copyright: 2007-2009 Stelios Bounanos, M0GLD
+           2014 David Freese, W1HKJ
+License: GPL-3+
+
+Files: src/utils/mongoose.c src/include/mongoose.h
+Copyright: 2004-2013 Sergey Lyubka <valenok@gmail.com>
+           2013-2014 Cesanta Software Limited
+           Steve Reid <steve@edmweb.com>
+License: GPL-2
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: public-domain
+ No license required for any purpose; the work is not subject to copyright in
+ any jurisdiction.
